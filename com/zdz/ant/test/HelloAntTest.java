@@ -53,6 +53,7 @@ public class HelloAntTest {
 	 */
 	@BeforeClass(alwaysRun = true)
 	public void setup() {
+		System.out.println("fffff");
 		System.setProperty("webdriver.chrome.driver", "E:/Eclipse/workspace/AntTestDemo/tools/chromedriver.exe");
 		ChromeOptions co=new ChromeOptions();
 		co.setBinary("C:/Users/T/AppData/Local/Google/Chrome/Application/chrome.exe");
